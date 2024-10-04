@@ -1,0 +1,20 @@
+import random
+
+def get_numbers_ticket(min, max, quantity):
+    """
+    This function ganerates a set of unique random numbers where all random numbers in the set must be unique.
+    The total number of ganerated numbers specified by the quantity parameter. 
+    All ganerated number will be in the range(min, max)
+
+    Parameters:
+    min (int): The minimum possible number in the range.
+    max (int): The maximum possible number in the range.
+    quantity (int): The number of unique random numbers to generate.
+
+    Returns:
+    (list) A list of unique random numbers within the specified range
+    """
+    pass
+
+
+print(get_numbers_ticket())
