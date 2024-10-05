@@ -2,7 +2,7 @@ import re
 from datetime import datetime
 
 
-def get_days_from_today(date):
+def get_days_from_today(date:str) -> int:
     """
     This function calculate the number of days between the given and current dates.
 
@@ -49,11 +49,11 @@ print('date2: : ', get_days_from_today(date2)) # 5
 print('date3: : ', get_days_from_today(date3)) # another format than expected
 print('date4: : ', get_days_from_today(date4)) # 0 same day
 print('date5: : ', get_days_from_today(date5)) # not string
-print('date6: : ', get_days_from_today(date6)) # not string
-print('date7: : ', get_days_from_today(date7)) # not string
-print('date8: : ', get_days_from_today(date8)) # not string
-print('date9: : ', get_days_from_today(date9)) # not string
-print('date10: : ', get_days_from_today(date10)) # not string
+print('date6: : ', get_days_from_today(date6)) # 
+print('date7: : ', get_days_from_today(date7)) # 
+print('date8: : ', get_days_from_today(date8)) # 
+print('date9: : ', get_days_from_today(date9)) # 
+print('date10: : ', get_days_from_today(date10)) # 
 
 # _______________________________________________
 # Condition: 

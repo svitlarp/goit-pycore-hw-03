@@ -1,6 +1,6 @@
 import random
 
-def get_numbers_ticket(min, max, quantity):
+def get_numbers_ticket(min:int, max: int, quantity: int) -> list:
     """
     This function ganerates a set of unique random numbers where all random numbers in the set must be unique.
     The total number of ganerated numbers specified by the quantity parameter. 
